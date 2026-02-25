@@ -1,0 +1,9 @@
+path: C:\Users\Users\Downloads\test\dataset
+train: images/train
+val: images/val
+
+nc: 3
+names:
+  0: BMW-X5-M
+  1: Volvo-XC40
+  2: Jaguar

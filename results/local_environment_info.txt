@@ -1,0 +1,31 @@
+
+================================================================================
+LOCAL LINUX ENVIRONMENT INFORMATION
+================================================================================
+
+Platform: Linux 6.8.0-1019-aws
+Machine: x86_64
+Python Version: 3.12.8
+
+GPU Information:
+  CUDA Available: True
+  GPU Device: Tesla T4
+  CUDA Version: 12.8
+  cuDNN Version: 91002
+
+Key Library Versions:
+  PyTorch: 2.9.1+cu128
+  NumPy: 2.2.6
+  OpenCV: 4.12.0
+  Pandas: 2.3.3
+  Matplotlib: 3.10.7
+
+Training Performance:
+  YOLOv11 Training Time: 11.18 minutes
+  YOLOv12 Training Time: 36.67 minutes
+
+Model Performance:
+  YOLOv11 mAP@0.5: 0.9923
+  YOLOv12 mAP@0.5: 0.9913
+
+================================================================================

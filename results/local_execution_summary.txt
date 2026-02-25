@@ -1,0 +1,41 @@
+
+================================================================================
+PLAYING CARDS DETECTION - COMPREHENSIVE SUMMARY (LOCAL LINUX)
+================================================================================
+
+DATASET INFORMATION:
+  Name: Playing Cards Detection (Roboflow)
+  Number of Classes: 3
+  Classes: BMW-X5-M, Volvo-XC40, Jaguar
+  Training Images: 1197
+  Validation Images: 300
+
+COMPUTING ENVIRONMENT:
+  Platform: Local Linux Machine
+  Device: GPU - Tesla T4
+  PyTorch Version: 2.9.1+cu128
+  CUDA Available: True
+  CUDA Version: 12.8
+
+YOLOV11 PERFORMANCE:
+  mAP@0.5      : 0.9923
+  mAP@0.5:0.95 : 0.9866
+  Precision    : 0.9892
+  Recall       : 0.9818
+  Training Time: 11.18 minutes
+
+YOLOV12 PERFORMANCE:
+  mAP@0.5      : 0.9913
+  mAP@0.5:0.95 : 0.9847
+  Precision    : 0.9844
+  Recall       : 0.9898
+  Training Time: 36.67 minutes
+
+PERFORMANCE DIFFERENCE:
+  mAP@0.5 Difference: -0.0011 (lower for YOLOv12)
+  mAP@0.5:0.95 Difference: -0.0019 (lower for YOLOv12)
+  Training Time Difference: 25.49 minutes (slower for YOLOv12)
+
+TOTAL EXECUTION TIME: 51.70 minutes
+DATE: 2025-11-25 13:54:42
+================================================================================
